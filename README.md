@@ -2,8 +2,9 @@
 
 The purpose of this demo is to showcase my front-end developer skills and my ability to follow methodologies and guidelines as I develop a premade design.
 
-[https://frontend-demo.netlify.com/](https://frontend-demo.netlify.com/)
-[https://frontend-demo.netlify.com/](https://frontend-demo.netlify.com/screen2.html)
+[Screen 1](https://frontend-demo.netlify.com/)
+
+[Screen 2](https://frontend-demo.netlify.com/screen2.html)
 
 ## Stack decision making
 
