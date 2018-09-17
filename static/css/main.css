@@ -519,6 +519,9 @@ body {
   background-color: #eeeeee;
   padding-bottom: 3rem;
 }
+.card--last {
+  margin-bottom: 5rem;
+}
 
 .card__header {
   color: #2e66af;

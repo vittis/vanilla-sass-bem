@@ -17,6 +17,9 @@
         background-color: $progressCard--bg;
         padding-bottom: 3rem;
     }
+    &--last {
+        margin-bottom: 5rem;
+    }
 }
 
 .card__header {
