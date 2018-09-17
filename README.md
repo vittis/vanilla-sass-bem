@@ -20,8 +20,8 @@ As the project evolves I would be sure to integrate **webpack** or a similar too
 
 ## Screenshots
 
-![screen1](https://imgur.com/MJVa93B)
+![screen1](https://imgur.com/MJVa93B.jpg)
 
-![screen2](https://imgur.com/HfdhpW8)
+![screen2](https://imgur.com/HfdhpW8.jpg)
 
-![mobile](https://imgur.com/uubvXph)
+![mobile](https://imgur.com/uubvXph.jpg)
