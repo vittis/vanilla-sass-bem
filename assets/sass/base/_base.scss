@@ -1,0 +1,26 @@
+// Made by Vitor Bichara
+// This file contains very basic styles
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: $gray--light;
+}
+h2 {
+    font-weight: 600;
+}
+
+/**
+* Make all elements from the DOM inherit from the parent box-sizing
+* See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}

@@ -1,0 +1,22 @@
+//  Made by Vitor Bichara
+//  This file contains all application relevant Sass variables
+
+// Regular font family
+$text-font-stack: 'Raleway', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+// Container's maximum width
+$max-width: 1180px !default;
+
+
+$card-border-radius: 5px;
+
+// Screen breakpoints 
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+// Relative URL where all assets are served from
+$base-url: '/assets/' !default;

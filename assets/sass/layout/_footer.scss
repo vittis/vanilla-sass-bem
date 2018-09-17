@@ -1,0 +1,24 @@
+//  Made by Vitor Bichara
+//  Footer style
+
+
+.footer {
+    background-color: $black;
+    color: $gray--light;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 15rem;
+
+    &--bigMargin {
+        margin-top: 30rem;
+    }
+}
+
+.footer a:link {
+    color: $red;
+}
+.footer a:visited {
+    color: $red;
+}

@@ -1,0 +1,91 @@
+//  Made by Vitor Bichara
+//  Navigation menu bar style
+
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    margin: 0;
+    background: $nav--bg;
+    white-space: nowrap;
+}
+.nav__item {
+    cursor: pointer;
+    padding: 1.5rem;
+    transition: 0.4s background-color ease;
+    &:hover {
+        background-color: $nav__item--hover;
+    }
+    &:hover .nav__link {
+        color: $nav__text--hover;
+    }
+    &--profile {
+        display: flex;
+        padding: 0rem;
+        &:hover .nav__profileContainer .nav__profileName {
+            color: $nav__text--hover;
+        }
+    }
+}
+
+.nav__link {
+    text-decoration: none;
+    color: $nav__text;
+    text-transform: uppercase;
+    font-size: 1em;
+    white-space: nowrap;
+    transition: 0.4s color ease;
+}
+.nav__profileContainer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nav__divider {
+    width: 1px;
+    height: 70%;
+    background-color: $gray--dark;
+    margin-right: 1.5rem;
+}
+.nav__profileIcon {      
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    border: solid 1px $gray--dark;
+    background-color: $gray;
+    margin-right: 0.5rem;
+}
+
+.nav__profileName {
+    font-weight: 600;
+    color: $nav__text;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-right: 1.5em;
+}
+
+.nav__mobileToggle {
+    display: none;
+    &:hover {
+        background-color: $gray;
+    }
+}
+.nav__toggleIcon {
+    color: $black;
+}
+
+@media screen and (max-width: 768px) {
+    .nav li:not(:first-child) {
+        display: none;
+    }
+    .nav__mobileToggle {
+        display: block;
+    }
+    .nav.responsive {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .nav.responsive li {
+        display: block;
+    }
+}

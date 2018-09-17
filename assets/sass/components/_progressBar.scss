@@ -1,0 +1,30 @@
+//  Made by Vitor Bichara
+//  Progress bar style
+
+.progressBar {
+    //background-color: blue;
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+}
+
+.progressBar__label {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.progressBar__bar {
+    margin-top: 0.5rem;
+    background-color: $progressBar--bg;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.progressBar__meter {
+    position: relative;
+    width: 30%;
+    height: 10px;
+    background-color: $red;
+    border-radius: 5px;
+}

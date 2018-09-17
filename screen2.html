@@ -1,0 +1,115 @@
+<!-- 
+    Made by Vitor Bichara
+    Using BEM naming convention methodology (https://en.bem.info/) 
+    and SASS 7-1 Architeture Pattern (https://sass-guidelin.es/#the-7-1-pattern)
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Front-End Demo By Vitor Bichara</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/main.css" />
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <ul class="nav" id="nav">
+            <a href="javascript:void(0);" class="nav__toggleIcon" onclick="toggleMobileNav()">
+                <li class="nav__item nav__mobileToggle">
+                    <i class="fa fa-bars"></i>
+                </li>
+            </a>
+            <li class="nav__item nav__item--profile">
+                <a class="nav__profileContainer" href="#">
+                    <div class="nav__divider"></div>
+                    <div class="nav__profileIcon"></div>
+                    <div class="nav__profileName">Andre Martins</div>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">For Employers</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">How it works</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Inside Look</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Companies</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Jobs</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">My Dashboard</a>
+            </li>
+        </ul>
+    </nav>  
+
+    <main class="container content">
+
+        <h1 class="content__header">My Profile</h1>
+
+        <div class="profileInfo">
+            <div class="pictureInfo">
+                <div class="profileInfo__header">
+                    Your profile picture
+                </div>
+                <div class="pictureInfo__picContainer">
+                    <i class="fa fa-user-circle pictureInfo__pic"></i>
+                    <button class="button button--small">
+                        Change
+                    </button>
+                </div>
+            </div>
+            <div class="profileInfo__header">
+                Name
+            </div>
+            <div class="profileInfo__name">
+                Andre Martins
+            </div>
+            
+        </div>
+
+        <button class="button" id="modal__open">Open Modal</button>
+
+    </main>
+    <div class="modal" id="modal">
+        <button class="modal__close" id="modal__close">X</button>
+        <div class="modal__content">
+            <h2 class="modal__header">
+                Introduce Yourself
+            </h2>
+            <div class="modal__text">
+                Add a small introduction about yourself,
+                outlining your career to date,
+                and the career path you would like
+                to take<br><br>
+                Showcase your strenght and values,
+                along with your personality.
+            </div>
+            <textarea class="modal__textarea" placeholder="Notes"></textarea>
+            <button class="button button--round button--fullWidth button--light">Save</button>
+
+        </div>
+    </div>
+    <div class="modal__overlay" id="modal__overlay">
+
+    </div>
+    <footer class="footer footer--bigMargin">
+        Made by <a href="https://www.vitorbichara.com/">Vitor Bichara</a><br>
+        Source at <a href="https://github.com/vittis/vitor-bichara-sitasde-v2">https://github.com/vittis/vitor-bichara-site-v2</a>
+    </footer>
+
+
+</body>
+</html>
+
+

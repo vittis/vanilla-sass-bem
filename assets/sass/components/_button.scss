@@ -1,0 +1,37 @@
+//  Made by Vitor Bichara
+//  Button component style
+
+.button {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem 4rem;
+    margin: 0;
+    font-size: 0.9rem;
+    text-decoration: none;
+    background: $button--bg;
+    color: $button;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &:hover {
+        background: $button--hover;
+    }
+    &--round {
+        border-radius: 25px;
+    }
+    &--fullWidth {
+        width: 100%;
+        font-size: 1rem;
+    }
+    &--light {
+        font-weight: 600;
+    }
+    &--small {
+        font-size: 0.8rem;
+        padding: 1rem 2rem;
+    }
+    
+}

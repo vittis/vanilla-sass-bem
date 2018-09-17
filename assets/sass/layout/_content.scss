@@ -1,0 +1,13 @@
+// Made by Vitor Bichara
+// Main content layout
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__header {
+    margin: 3rem;
+    font-weight: 600;
+}

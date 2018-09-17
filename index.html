@@ -1,0 +1,105 @@
+<!-- 
+    Made by Vitor Bichara
+    Using BEM naming convention methodology (https://en.bem.info/) 
+    and SASS 7-1 Architeture Pattern (https://sass-guidelin.es/#the-7-1-pattern)
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Front-End Demo By Vitor Bichara</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/main.css" />
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <ul class="nav" id="nav">
+            <a href="javascript:void(0);" class="nav__toggleIcon" onclick="toggleMobileNav()">
+                <li class="nav__item nav__mobileToggle">
+                    <i class="fa fa-bars"></i>
+                </li>
+            </a>
+            <li class="nav__item">
+                <a class="nav__link" href="#">For Employers</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">How it works</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Inside Look</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Companies</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Jobs</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">My Dashboard</a>
+            </li>
+        </ul>
+    </nav>  
+
+    <main class="container content">
+
+        <h1 class="content__header">My Profile</h1>
+
+        <div class="card card--progressCard">
+
+            <div class="progressBar">
+                <div class="progressBar__label">
+                    Progress: 30%
+                </div>
+                <div class="progressBar__bar">
+                    <div class="progressBar__meter"></div>
+                </div>
+            </div>
+
+            <div class="card__text card__text--dark card__text--fullWidth">
+                Complete 60% to apply for Jobs and let companies know you're interested
+            </div>
+        </div>
+
+
+        <div class="card">
+            <h2 class="card__header">Introduction</h2>
+            <div class="card__text">
+                Take a brief moment to introduce yourself and increase your Profile
+                strenght by 25%.
+            </div>
+            <button class="button">Add</button>
+        </div>
+
+        <div class="card">
+            <h2 class="card__header">Experience</h2>
+            <div class="card__text">
+                Add your experience to increase your Profile strenght by 25%
+            </div>
+            <button class="button">Add</button>
+        </div>
+
+        <div class="card">
+            <h2 class="card__header">Education</h2>
+            <div class="card__text">
+                Add your education to increase your Profile strenght by 50%
+            </div>
+            <button class="button">Add</button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        Made by <a href="https://www.vitorbichara.com/">Vitor Bichara</a><br>
+        Source at <a href="https://github.com/vittis/vitor-bichara-sitasde-v2">https://github.com/vittis/vitor-bichara-site-v2</a>
+    </footer>
+
+
+</body>
+</html>
+

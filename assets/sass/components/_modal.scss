@@ -1,0 +1,82 @@
+//  Made by Vitor Bichara
+//  Modal component style
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $white;
+    color: $gray--dark;
+    border-radius: 5px;
+    z-index: 11;
+}
+.modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    padding-top: 0.5rem;
+}
+.modal__header {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+.modal__text {
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.modal__close {
+    cursor: pointer;
+    border: none;
+    background: $white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    align-self: flex-end;
+    text-decoration: none;
+    color: $gray--dark;
+    font-size: 1.5em;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.modal__textarea {
+    outline: none;
+    resize: none;
+    overflow: auto;
+    border: 1px #dedede solid;
+    border-radius: 3px;
+    width: 100%;
+    height: 13rem;
+    padding: 1rem;
+    color: $gray--dark;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+
+    &:focus {
+        border-color: $blue;
+    }
+}
+
+.modal__overlay {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal--closed {
+    display: none;
+}

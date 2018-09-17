@@ -1,0 +1,38 @@
+//  Made by Vitor Bichara
+//  Using naming convention derived from BEM methodology 
+
+
+// Descriptive Colors
+$white: #ffffff;
+$black: #333333;
+$gray: #eeeeee;
+$gray--light: #fbfbfb;
+$gray--mid: #e6e6e6;
+$gray--dark: #6b6b6b;
+$blue: #2e66af;
+$red: #ef3e42;
+$red--dark: #b40f12;
+
+// Functional Colors
+$nav--bg: $white;
+$nav__item--hover: $blue;
+$nav__text: $gray--dark;
+$nav__text--hover: $white;
+
+$content--bg: $gray--light;
+$content__text: $black;
+
+$button--bg: $red;
+$button--hover: $red--dark;
+$button: $white;
+
+$card--bg: $white;
+$card__header: $blue;
+$card__text: $gray--dark;
+$card__border: $gray--mid;
+
+
+$progressCard--bg: $gray;
+$progressCard__text: $black;
+$progressBar--bg: $white;
+$progressBar__meter--bg: $red;

@@ -1,0 +1,42 @@
+//  Made by Vitor Bichara
+//  ProfileInfo component style
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $card__border;
+    padding: 2.5rem;
+    margin: 2.5rem;
+    border-radius: 5px;
+    max-width: 95%;
+    min-width: 65%;
+}
+
+.profileInfo__header {
+    font-weight: 700;
+}
+
+.pictureInfo__picContainer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+
+    height: 90px;
+    width: 100%;
+    border: 2px dashed $card__border;
+    justify-content: space-between;
+}
+
+.pictureInfo__pic {
+    font-size: 60px;
+    color: $gray--dark;
+}
+
+.profileInfo__name {
+    font-weight: 600;
+    color: $gray--dark;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
