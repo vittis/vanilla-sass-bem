@@ -2,6 +2,9 @@
 
 The purpose of this demo is to showcase my front-end developer skills and my ability to follow methodologies and guidelines as I develop a premade design.
 
+[https://frontend-demo.netlify.com/](https://frontend-demo.netlify.com/)
+[https://frontend-demo.netlify.com/](https://frontend-demo.netlify.com/screen2.html)
+
 ## Stack decision making
 
 The main technologies and methodologies used were: 
