@@ -14,6 +14,7 @@ The main technologies and methodologies used were:
 * SASS 7-1 Architeture Pattern ([https://sass-guidelin.es/#the-7-1-pattern](https://sass-guidelin.es/#the-7-1-pattern))
 
 You may ask: Why not use a css/js framework like Bootstrap, MaterializeCSS or jQuery? Or even some popular modular javascript library like React or Vue?
+
 First of all, I like to keep it simple. Adding complexity for the sake of the sake of adding complexity has led many developers to deep problems, including myself. Not to tell the extra load times it comes with such additions.
 
 Of course every project has its own needs, and there are a lot of contexts that the adoption of such frameworks are justificable and encouraged. I surely would use Bootstrap for some rapid prototyping, for example.
